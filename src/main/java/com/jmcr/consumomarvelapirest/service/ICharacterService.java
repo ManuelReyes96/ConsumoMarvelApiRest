@@ -5,7 +5,7 @@ import java.util.List;
 import com.jmcr.consumomarvelapirest.entity.Bitacora;
 import com.jmcr.consumomarveljar.model.CharacterDataWrapper;
 
-public interface IGetCharacterService {
+public interface ICharacterService {
 
 	CharacterDataWrapper getCharacter(int limit, int offset);
 	

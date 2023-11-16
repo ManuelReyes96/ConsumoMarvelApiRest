@@ -12,7 +12,7 @@ import com.jmcr.consumomarveljar.apiconnect.ApiMarvelConnection;
 import com.jmcr.consumomarveljar.model.CharacterDataWrapper;
 
 @Service
-public class GetCharacterService implements IGetCharacterService {
+public class CharacterService implements ICharacterService {
 	
 	private ApiMarvelConnection apiMarvelConnection = new ApiMarvelConnection();
 	
