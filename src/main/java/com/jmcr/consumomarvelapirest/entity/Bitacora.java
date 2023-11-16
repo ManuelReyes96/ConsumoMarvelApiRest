@@ -14,6 +14,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * Class of entity Bitacora
+ */
 @Entity
 @Table(name = "bitacora")
 @Getter
