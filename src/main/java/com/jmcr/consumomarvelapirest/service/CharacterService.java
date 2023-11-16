@@ -37,7 +37,7 @@ public class CharacterService implements ICharacterService {
 	}
 	
 	private void addNewBitacora(String nameService) {
-		Bitacora bitacora = new Bitacora();
+		var bitacora = new Bitacora();
 		bitacora.setServiceName(nameService);
 		bitacora.setTimestamp(LocalDateTime.now());
 		bitacoraRepository.save(bitacora);

@@ -4,9 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -14,12 +11,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import com.jmcr.consumomarvelapirest.entity.Bitacora;
 import com.jmcr.consumomarvelapirest.repository.IBitacoraRepository;
-import com.jmcr.consumomarvelapirest.service.ICharacterService;
 import com.jmcr.consumomarveljar.apiconnect.ApiMarvelConnection;
 import com.jmcr.consumomarveljar.model.CharacterDataWrapper;
 
 @SpringBootTest
-public class CharacterServiceTest {
+class CharacterServiceTest {
 
 	@InjectMocks
 	private CharacterService service;

@@ -36,6 +36,6 @@ public class CharacterController {
 	@GetMapping(value = "/getlog")
 	public ResponseEntity<List<Bitacora>> getLog(){
 		List<Bitacora> log = service.getLog();
-		return new ResponseEntity<List<Bitacora>>(log, HttpStatus.OK);
+		return new ResponseEntity<>(log, HttpStatus.OK);
 	}
 }

@@ -16,7 +16,7 @@ import com.jmcr.consumomarvelapirest.service.ICharacterService;
 import com.jmcr.consumomarveljar.model.CharacterDataWrapper;
 
 @SpringBootTest
-public class CharacterControllerTest {
+class CharacterControllerTest {
 
 	@InjectMocks
 	private CharacterController controller;
